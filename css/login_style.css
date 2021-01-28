@@ -1,0 +1,105 @@
+html,body{
+    text-align: center;
+    font-family: tbnpgothic-std, serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin: 0 auto;
+}
+
+button, input, select, textarea {
+font-family : inherit;
+font-size : 100%;
+}
+
+.buy_page{
+    text-align: center;
+}
+
+.button {
+    /* 文字サイズを1.4emに指定 */
+    font-size: 1.4em;
+
+    /* 文字の太さをboldに指定 */
+    font-weight: bold;
+
+    /* 縦方向に10px、
+     * 横方向に30pxの余白を指定 */
+    margin: 10px 30px;
+    padding: 10px 50px;
+
+    /* 背景色を濃い青色に指定 */
+    background-color: black;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+
+    /* ボーダーをなくす */
+    border-style: none;
+
+    /* ボタンの影の指定
+     * 影の横幅を2px
+     * 縦長を2px
+     * ぼかしを3px
+     * 広がりを1px
+     * 色を#666（グレー）に指定 */
+    box-shadow: 2px 2px 3px 1px #666;
+    -moz-box-shadow: 2px 2px 3px 1px #666;
+    -webkit-box-shadow: 2px 2px 3px 1px #666;
+}
+
+.button:hover {
+    /* 背景色を明るい青色に指定 */
+  background: linear-gradient(86.13deg, #7080F7 -3.42%, #3E9ED9 59.59%); /* バナーの背景色 */
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+}
+
+.wrapper {    
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+
+.form-signin {
+  max-width: 420px;
+  padding: 30px 38px 66px;
+  margin: 0 auto;
+  background-color: #eee;
+  border: 3px dotted rgba(0,0,0,0.1);  
+  }
+
+.form-signin-heading {
+  text-align:center;
+  margin-bottom: 30px;
+}
+
+.form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+}
+
+input[type="text"] {
+  margin-bottom: 0px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+input[type="password"] {
+  margin-bottom: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.colorgraph {
+  height: 7px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
