@@ -3,7 +3,14 @@ $(document).ready(function () {
     setTimeout(function () {
         $('#main_text').fadeIn("slow");
     }, 1000);
+    setTimeout(function () {
+        $('#modal').fadeIn("slow");
+    }, 2000);
 });
+
+$('#close').click(function () {
+    $('#modal').fadeOut();
+})
 
 // スクロールするとフェードインするエフェクト
 $(window).on('load scroll', function () {

@@ -28,6 +28,6 @@ if (!$val) { // 該当データがないときはログインページへのリ�
     $_SESSION["session_id"] = session_id();
     $_SESSION["is_admin"] = $val["is_admin"];
     $_SESSION["username"] = $val["username"];
-    header("Location:index.php"); // 一覧ページへ移動
+    header("Location:login_index.php"); // 一覧ページへ移動
     exit();
 }

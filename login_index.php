@@ -1,5 +1,7 @@
 <?php
-
+session_start();
+include("functions.php");
+check_session_id();
 ?>
 
 <!DOCTYPE html>
@@ -21,16 +23,6 @@
                 <p class="cta">購入はこちら</p>
             </div>
         </a>
-    </div>
-
-    <div id="modal" class="modal">
-        <div class="modal_wrap">
-            <div class="modal_text">
-                <h2>イチ押しのお墨付き商品<br>人気投票キャンペーン実施中！</h2>
-                <button class="button" type="submit" onclick="location.href='register.php'">新規登録はこちら</button><br>
-                <img id="close" class="close" src="img/close.png" alt="">
-            </div>
-        </div>
     </div>
 
     <div class="main_layout">
@@ -109,6 +101,31 @@
         </div>
     </div>
 
+    <div class="content">
+        <h1 class="content_title scroll-fade">他にもあるよ！オススメお墨付き人気投票！</h1>
+        <div class="content_box scroll-fade">
+            <div class="buy">
+                <img src="img/atarime_03.png" alt="">
+                <h2>にじみ出る旨みあたりめ</h2>
+                <button class="button" type="submit" onclick="location.href='vote_create.php?id=1'">投票する</button>
+            </div>
+            <div class="buy">
+                <img src="img/kakinotane.png" alt="">
+                <h2>柿の種わさび味</h2>
+                <button class="button" type="submit" onclick="location.href='vote_create.php?id=2'">投票する</button>
+            </div>
+            <div class="buy">
+                <img src="img/cheese.png" alt="">
+                <h2>チーズあられ</h2>
+                <button class="button" type="submit" onclick="location.href='vote_create.php?id=3'">投票する</button>
+            </div>
+            <div class="buy">
+                <img src="img/aji.png" alt="">
+                <h2>香ばしい焼きあじ</h2>
+                <button class="button" type="submit" onclick="location.href='vote_create.php?id=4'">投票する</button>
+            </div>
+        </div>
+    </div>
     <footer>copyright 2021 UshiTaku</footer>
     <!-- フォント・js動き読み込み -->
     <script type="text/javascript" src="js/font.js"></script>

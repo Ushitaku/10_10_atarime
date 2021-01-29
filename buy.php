@@ -22,7 +22,7 @@ check_session_id();
             <div class="buy">
                 <img src="img/atarime_02.png" alt="">
                 <h2>食べたら感想教えてね。</h2>
-                <button class="button" type="submit" onclick="location.href='index.php'">トップへ戻る</button>
+                <button class="button" type="submit" onclick="location.href='login_index.php'">トップへ戻る</button>
             </div>
         </div>
     </div>

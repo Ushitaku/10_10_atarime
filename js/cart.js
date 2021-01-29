@@ -1,3 +1,4 @@
+// プラスマイナスを押すと数量が変わる処理
 $('.minus-btn').on('click', function (e) {
     e.preventDefault();
     var $this = $(this);
@@ -27,4 +28,21 @@ $('.plus-btn').on('click', function (e) {
     }
 
     $input.val(value);
+});
+// ここまで
+
+// プラスマイナスを押すと金額が反映される処理
+var quant = 0;  //金額格納用
+
+$('.plus-btn').click(function () {
+    quant += 350;
+    $('#total').html(quant); //金額を反映
+});
+
+$('.minus-btn').click(function () {
+    quant -= 350;
+    $('#total').html(quant); //金額を反映
+    // if (quant < 0) {
+    //     quant === 0;
+    // }
 });

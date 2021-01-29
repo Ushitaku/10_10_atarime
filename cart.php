@@ -11,7 +11,7 @@ check_session_id();
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Shopping Cart</title>
+    <title>購入画面</title>
 
     <link rel="stylesheet" href="css/cart_style.css" media="screen" title="no title" charset="utf-8">
     <script src="https://code.jquery.com/jquery-2.2.4.js" charset="utf-8"></script>
@@ -46,15 +46,23 @@ check_session_id();
                     <button class="plus-btn" type="button" name="button">
                         <img src="img/plus.svg" alt="" />
                     </button>
-                    <input type="text" name="name" value="1">
+                    <input id="value" type="text" name="name" value="1">
                     <button class="minus-btn" type="button" name="button">
                         <img src="img/minus.svg" alt="" />
                     </button>
                 </div>
 
-                <div id="total-price" class="total-price">350円</div>
+                <div id="total-price" class="total-price">単価350円</div>
             </div>
-            <div id="total" class="total"></div>
+            <div class="total-wrapper">
+                <div class="total-text">
+                    <ul>
+                        <li>合計金額:</li>
+                        <li id="total" class="total">0</li>
+                        <li>円</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
     <button class="button" type="submit" onclick="location.href='buy.php'">購入する</button>
