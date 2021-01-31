@@ -40,13 +40,18 @@ align-items: flex-end;
 vertical-align: bottom;
 position: relative;
 top: 100px;
-left: 400px;
+left: 250px;
 
 }
 
 li{
   list-style: none;
   padding: 10px;
+}
+
+.first-child{
+  /* visibility: hidden; */
+  color: red;
 }
 
 .content_title{

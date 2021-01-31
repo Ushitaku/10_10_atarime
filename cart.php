@@ -57,8 +57,9 @@ check_session_id();
             <div class="total-wrapper">
                 <div class="total-text">
                     <ul>
+                        <li class="first-child">複数購入お値引き</li>
                         <li>合計金額:</li>
-                        <li id="total" class="total">0</li>
+                        <li id="total" class="total">350</li>
                         <li>円</li>
                     </ul>
                 </div>
